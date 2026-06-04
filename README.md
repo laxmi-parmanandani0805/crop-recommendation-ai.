@@ -1,0 +1,27 @@
+# 🌾 AgroPredict: AI Crop Recommendation System
+
+A simple web application built for the **ANNAM.AI Course at IIT Ropar**. It uses Machine Learning to recommend the best crop to plant based on soil nutrients and weather conditions.
+
+👉 **[Click Here to View the Live App](YOUR_LIVE_STREAMLIT_APP_URL_HERE)**
+
+---
+
+## 📂 Project Files
+
+* `app.py` - The code for the web user interface (Streamlit).
+* `crop_model.pkl` - The trained AI model file.
+* `requirements.txt` - List of libraries needed to run the app.
+* `Crop_recommendation.csv` - The dataset containing soil data.
+* `train.py` - Script used to train the machine learning model.
+
+---
+
+## 🚀 How to Run Locally
+
+If you want to run this project on your own computer inside VS Code, follow these quick steps:
+
+1. **Install the required libraries:**
+   ```bash
+   pip install -r requirements.txt
+   ```bash
+   
