@@ -1,11 +1,16 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
 
-# 1. Load the pre-trained model
+# 1. Load the pre-trained model dynamically
 @st.cache_resource
 def load_model():
-    with open('crop_model.pkl', 'rb') as file:
+    # This finds the exact folder where app.py is currently sitting
+    current_dir = os.path.dirname(__file__)
+    model_path = os.path.join(current_dir, 'crop_model.pkl')
+    
+    with open(model_path, 'rb') as file:
         return pickle.load(file)
 
 model = load_model()
