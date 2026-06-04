@@ -2,7 +2,7 @@
 
 A simple web application built for the **ANNAM.AI Course at IIT Ropar**. It uses Machine Learning to recommend the best crop to plant based on soil nutrients and weather conditions.
 
-👉 **[Click Here to View the Live App]([YOUR_LIVE_STREAMLIT_APP_URL_HERE](https://crop-recommendation-ai-glcpjqcyierfnt8ecvfcjr.streamlit.app/))**
+👉 **[Click Here to View the Live App]([[[YOUR_LIVE_STREAMLIT_APP_URL_HERE](https://crop-recommendation-ai-glcpjqcyierfnt8ecvfcjr.streamlit.app/)]**
 
 ---
 
